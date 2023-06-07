@@ -7,4 +7,12 @@ body {
     background-image: linear-gradient(#F3BADB, #F6D19C);
     width: 100%;
     height: 80vh;
+    display: flex;
+    justify-content: center;
+}
+
+.sky img {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
 }
