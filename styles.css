@@ -70,3 +70,11 @@ body {
     width: 10%;
     bottom: 10%;
 }
+
+.about-me {
+    height: 600px;
+    background-color: #69D31D;
+    padding: 40px;
+    display: flex;
+    justify-content: center:
+}
