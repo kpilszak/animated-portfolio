@@ -7,3 +7,9 @@ const cloudFive = document.getElementById('cloud-five');
 const javascript = document.getElementById('javascript');
 const react = document.getElementById('react');
 const graphql = document.getElementById('graphql');
+
+function move() {
+    console.log("Scrolled")
+}
+
+window.addEventListener('scroll', move)
