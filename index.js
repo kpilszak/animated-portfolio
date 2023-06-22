@@ -9,7 +9,8 @@ const react = document.getElementById('react');
 const graphql = document.getElementById('graphql');
 
 function move() {
-    console.log("Scrolled")
+    const incrementer = window.scrollY
+    balloon.style.bottom = 10 + incrementer * 0.1 + '%';
 }
 
 window.addEventListener('scroll', move)
